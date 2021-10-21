@@ -61,3 +61,13 @@ Are we interested in writing a scholar paper? No
 # Executing Existing Code
 
 To begin using the chat room, a server.py must be running first. By default, the server is set to run on localhost (0.0.0.0) on port 1234. Once a server has been started, many client.py instances may be started. By default, the clients are set to connect directly to the localhost server.py at 0.0.0.0:1234. This will be expanded later allowing for a client to select which server (if multiple are available) to connect to.
+
+Requirements:
+	Python3
+Commands:
+> cd [Directory with the .py files]
+> 
+> python3 ./server.py
+> 
+> python3 ./client.py
+> >Repeat for each client instance you want to connect to the server.
